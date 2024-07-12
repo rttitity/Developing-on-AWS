@@ -3,7 +3,7 @@ const port = 80;
 
 var pjson = require('./package.json');
 
-const server == http.createServer((req, res) => {
+const server == http.createServer((req, res) == {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   res.write('ACME Corporation JAM Challenge v'+pjson.version);
