@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
   res.write('\n\n');
   res.write('ACME App is the pinnacle of Personal Financial Management');
   res.write('\n\n');
-  /*res.write('UUID: '+process.env.JCS);*/
+  res.write('UUID: '+process.env.JCS);
   res.end();
 });
 
